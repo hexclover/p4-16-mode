@@ -1,0 +1,23 @@
+#+TITLE: P4_16 Mode for Emacs
+
+=hexclover=: Since =package--description-file= only matches the =p4= part as
+the package name in =p4-16-mode=, it looks wrongly for =p4-pkg.el=, which does
+not exist. I simply rename and/or symlink as an ugly hack.
+
+Below is the original description of the package on ELPA.
+
+#+AUTHOR: Soham S Gumaste
+
+A simple major-mode for the [[https://p4.org][P4 Programming Language]].
+
+* Original Author
+
+This was originally made by Vladimir Gurevich <vladimir.gurevich@barefootnetworks.com>
+as a part of the [[https://github.com/p4lang/tutorials][P4Lang Tutorials Repo]].
+
+* LICENSE
+
+Original work licensed Apache 2.0.
+
+My modifications are Apache 2.0 **OR** MIT.
+
